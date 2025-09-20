@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 import { yekan } from "@/utils/font";
+import Layout from "@/layout/Layout";
 
 
 
@@ -24,7 +25,9 @@ export default function RootLayout({
       <body
        className={yekan.className}
       >
+       <Layout>
         {children}
+       </Layout>
       </body>
     </html>
   );

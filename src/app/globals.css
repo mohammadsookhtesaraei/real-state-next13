@@ -21,3 +21,9 @@ a {
 button,textarea,input {
   font-family: inherit;
 }
+
+
+@theme inline {
+  --color-bg-header:#304ffe;
+ 
+}
