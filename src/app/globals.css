@@ -1,2 +1,23 @@
 @import "tailwindcss";
 
+* {
+  font-weight: 200;
+}
+
+body {
+  inline-size: min(75rem,100%);
+  overflow-x: hidden;
+  margin-inline: auto;
+  padding-inline: 0.625rem;
+
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+button,textarea,input {
+  font-family: inherit;
+}
